@@ -11,28 +11,28 @@
 
 ### 2. Python Data Types, Variables, Operators, and Basic I/O
 #### 2.1 The "Hello, World!" Program
-☐ Working with the `print()` function 
+☑ Working with the `print()` function 
 
-☐ The `print()` function and its arguments
+☑ The `print()` function and its arguments
 
-☐ Formatting the output
+☑ Formatting the output
 #### 2.2 Python Literals
-☐ Python literals - strings
+☑ Python literals - strings
 #### 2.3 Operators - data manipulation tools
 #### 2.4 Variables
-☐ Variables
+☑ Variables
 
-☐ Variables - a simple converter
+☑ Variables - a simple converter
 
-☐ Operators and expressions
+☑ Operators and expressions
 #### 2.5 Comments
-☐ Comments
+☑ Comments
 #### 2.6 Interacion with the user
-☐ Simple input and output 
+☑ Simple input and output 
 
-☐ Operators and expressions
+☑ Operators and expressions
 
-☐ Operators and expressions - 2
+☑ Operators and expressions - 2
 #### 2.7 Module Test
 
 ### 3. Boolean Values, Conditional Execution, Loops, Lists and List Processing, Logical and Bitwise Operations
