@@ -1,3 +1,4 @@
+# UNFINISHED
 days_by_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
