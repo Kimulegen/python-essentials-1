@@ -1,5 +1,4 @@
 board = [[x + y * 3 for x in range(1, 4)] for y in range(3)]
-print(board)
 
 
 def display_board(board):
@@ -35,6 +34,28 @@ def enter_move(board):
         print("illegal move")
 
 
-display_board(board)
-enter_move(board)
-display_board(board)
+def make_list_of_free_fields(board):
+    free_fields = []
+    for i, row in enumerate(board):
+        for j, cell in enumerate(row):
+            if type(cell) != str:
+                free_fields.append((i, j))
+
+    return free_fields
+
+
+def victory_for(board, sign):
+    # horizontal
+    for i, row in enumerate(board):
+        if all(cell == sign for cell in row):
+            return True
+
+    # vertical
+    for i in range(3):
+        if all(board[j][i] == sign for j in range(3)):
+            return True
+
+    # diagonal
+    for i in range(3):
+        if all(board[i][i] == sign):
+            return True
