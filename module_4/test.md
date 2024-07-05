@@ -30,6 +30,7 @@
 
     print(f(3))
     ```
+
     `6`
 
 6. **What is the output of the following snippet?**
@@ -43,6 +44,7 @@
     x = fun(x + 1)
     print(x)
     ```  
+
     `4`
 
 7. **What code would you insert instead of the comment to obtain the expected output?
@@ -130,6 +132,7 @@ Expected output:**
     fun(2)
     print(y)
     ```
+
     `4`
 
 14. **What is the output of the following snippet?**
@@ -142,6 +145,7 @@ Expected output:**
     any()
     print(var)
     ```
+
     `21`
 
 15. **Assuming that `my_tuple` is a correctly created tuple, the fact that tuples are immutable means that the following instruction:**
@@ -174,6 +178,7 @@ Expected output:**
 
     print(fun(0, z=1, y=3))
     ```
+
     `9`
 
 18. **What is the output of the following snippet?**
@@ -184,6 +189,7 @@ Expected output:**
 
     print(fun(out=2))
     ```
+
     `4`
 
 19. **What is the output of the following code?**
@@ -196,6 +202,7 @@ Expected output:**
 
     print(v)
     ```
+
     `two`
 
 20. **What is the output of the following code?**
@@ -218,7 +225,7 @@ Expected output:**
 
     If you suspect that a snippet may raise an exception, you should place it in the try block.
 
-    The code that follows the except statement will be executed if the code in the try clause runs into an error.
+    The code that follows the `except` statement will be executed if the code in the `try` clause runs into an error.
 
 22. **What is the output of the following code?**
     ```python
