@@ -11,7 +11,7 @@ days_by_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
 
 def days_in_month(year, month):
-    if year < 0 or not (1 <= month <= 12):
+    if year < 1582 or not (1 <= month <= 12):
         return
     if month == 2 and is_year_leap(year):
         return 29
