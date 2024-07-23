@@ -1,4 +1,4 @@
-# Curso Python Essentials 1 de Cisco
+# Cisco's Python Essentials 1 course
 [course link](https://skillsforall.com/course/python-essentials-1)
 
 ## Contents
